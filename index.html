@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Khairat Nur - CV </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Draco is free PSD &amp; HTML template by @afnizarnur">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'Nur';
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">Nur</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">Tentang</a></li>
+				        <li><a href="#experiences">Pendidikan</a></li>
+				        <li><a href="#achievements">Course</a></li>
+				        <li><a href="#skills">Skills</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I’m Khairatnur</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>I live in<br><span id="typed">Lhokseumawe</span></h1>
+				</div>
+				<p>
+					Saya lahir di Lhokseumawe, 10 February 1999 .Saya adalah mahasiswi aktif semester 4 jurusan teknik informatika Universitas Malikussaleh. Semester sebelumnya saya pernah mencoba ikut organisasi  dikampus , organisasi tersebut LDK AlKautsar.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Riwayat<br>Sekolah</h1>
+			<ul class="work-list">
+				<li>2017-sekarang</li>
+				<li><a href="#">Universitas Malikussaleh</a></li>
+				<li>Teknik Informatika</li>
+			</ul>
+			<ul class="work-list">
+				<li>2014-2017</li>
+				<li><a href="#">MAS Misbahul Ulum</a></li>
+				<li>High School</li>
+			</ul>
+			<ul class="work-list">
+				<li>2011-2014</li>
+				<li><a href="#">MTsN Misbahul Ulum</a></li>
+				<li>Middle School</li>
+			</ul>
+						<ul class="work-list">
+				<li>2005-2011</li>
+				<li><a href="#">MIN Paloh</a></li>
+				<li>Elementary School</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Award & Achievements -->
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h1>Course</h1>
+			<ul class="award-list list-flat">
+				<li>2015</li>
+				<li>Taylor Course</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>2014</li>
+				<li>English Course</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Technical<br>Skills</h1>
+			<ul class="skill-list list-flat">
+				<li>Web Technology</li>
+				<li>HTML / CSS / JS</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Database</li>
+				<li>MySQL</li>
+			</ul>
+				<ul class="skill-list list-flat">
+				<li>Other</li>
+				<li>Menjahit | Memasak</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Quote -->
+	<div class="quote">
+		<div class="container text-centered">
+			<h1>Tuntutlah Ilmu Sepanjang Hayat</h1>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Khairatnur</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:afnizarhilmi@gmail.com"><i class="fa fa-send"></i></a></li>
+						<li><a href="http://twitter.com/afnizarnur"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="http://dribbble.com/afnizarnur"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="http://behance.com/afnizarnur"><i class="fa fa-behance"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["Lhokseumawe", "Aceh", "Indonesia"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
